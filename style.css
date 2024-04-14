@@ -1,0 +1,95 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--primary-violet);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main {
+    background: url(../images/bg-desktop.svg) center no-repeat;
+    background-size: cover; opacity: 1.6;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding: 40px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+.conteudo .informacoes{
+    padding: 0 0 300px 50px;
+    max-width: 600px;
+}
+
+.conteudo .informacoes h2{
+    font-weight: 600;
+    color: #ffff;
+    line-height: 60px;
+    font-size: 40px;
+    margin-top: 130px;
+}  
+
+.conteudo .informacoes p{
+    font-family: "Open Sans", sans-serif;
+    line-height: 27px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffff;
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+}  
+ 
+
+
+ .informacoes .btn-register{
+    background-color: #ffff;
+    color: var(--primary-violet);
+    font-size: 18px;
+    padding: 17px 60px;
+    border-radius: 30px;
+    margin-left: 14px;
+ }
+
+
+
+ .informacoes .btn-register:hover{
+    color: #ffff;
+    background-color: var(--Soft-Magenta);
+ }
+
+
+.redesocial {
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    gap: 30px;
+    padding: 0px 30px 50px 0;  
+ }
+
+ .redesocial a{
+   border: 1px solid;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   text-align: center;
+   color: #ffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .redesocial a:hover{
+    color:  var(--Soft-Magenta);
+ }
+ 
